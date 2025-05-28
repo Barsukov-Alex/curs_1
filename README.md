@@ -160,3 +160,16 @@ curl -v 158.160.163.77:80
 ```
 
 <img src = "img/9.jpg" width = 100%>
+<img src = "img/10.jpg" width = 100%>
+
+## Мониториг
+
+http://84.201.176.224:3000
+
+Логин/пароль
+admin/passwbars
+
+<img src = "img/11.jpg" width = 100%>
+<img src = "img/12.jpg" width = 100%>
+<img src = "img/13.jpg" width = 100%>
+<img src = "img/14.jpg" width = 100%>
