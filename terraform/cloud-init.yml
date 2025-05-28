@@ -1,0 +1,8 @@
+#cloud-config
+users:
+ - name: barsukov
+   groups: sudo
+   shell: /bin/bash
+   sudo: ['ALL=(ALL) NOPASSWD:ALL']
+   ssh-authorized-keys:
+      - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAMEtngbKKech/1PKz7dVDdSx7YlK1ScNzzmD9Ucuqd+ barsukov@barsukov-VirtualBox"
