@@ -178,7 +178,7 @@ admin/passwbars
 
 На созданные ВМ с помощью ansible разворачиваются Kibana, Elasticsearch и автоматически конфигурируются на приём данных от filebeat на веб-серверах
 
-http://51.250.84.147:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))&_a=(columns:!(),dataSource:(dataViewId:discover-observability-solution-all-logs,type:dataView),filters:!(),interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))
+[Логирование]http://51.250.84.147:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))&_a=(columns:!(),dataSource:(dataViewId:discover-observability-solution-all-logs,type:dataView),filters:!(),interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))
 
 <img src = "img/15.jpg" width = 100%>
 
