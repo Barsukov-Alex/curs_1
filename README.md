@@ -173,3 +173,29 @@ admin/passwbars
 <img src = "img/12.jpg" width = 100%>
 <img src = "img/13.jpg" width = 100%>
 <img src = "img/14.jpg" width = 100%>
+
+## Логирование
+
+На созданные ВМ с помощью ansible разворачиваются Kibana, Elasticsearch и автоматически конфигурируются на приём данных от filebeat на веб-серверах
+
+http://51.250.84.147:5601/app/home#/
+
+<img src = "img/15.jpg" width = 100%>
+
+## Сеть
+
+Terraform настраивает Security Groups соответствующих сервисов на входящий трафик только к нужным портам.
+
+Все ВМ добавлены в группу с ssh доступом по private_ip.
+
+Получаем список сетей и security groups:
+
+<img src = "img/16.jpg" width = 100%>
+<img src = "img/17.jpg" width = 100%>
+<img src = "img/18.jpg" width = 100%>
+
+
+### Резервное копирование
+Создал snapshot дисков всех ВМ. Ограничил время жизни snaphot в неделю. Сами snaphot настроил на ежедневное копирование.
+
+<img src = "img/19.jpg" width = 100%>
