@@ -199,3 +199,12 @@ Terraform настраивает Security Groups соответствующих 
 Создал snapshot дисков всех ВМ. Ограничил время жизни snaphot в неделю. Сами snaphot настроил на ежедневное копирование.
 
 <img src = "img/19.jpg" width = 100%>
+
+
+
+### P.S.
+
+В файле inventory.ini Для Ansible использовались .fqdn 
+
+<img src = "img/20.jpg" width = 100%>
+
