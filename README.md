@@ -208,3 +208,9 @@ Terraform настраивает Security Groups соответствующих 
 
 <img src = "img/20.jpg" width = 100%>
 
+
+
+
+
+TEST
+
